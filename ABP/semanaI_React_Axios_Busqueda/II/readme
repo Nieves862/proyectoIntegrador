@@ -1,0 +1,30 @@
+Este proyecto presenta un sistema de visualización de productos robusto y dinámico, 
+enriquecido con estadísticas en tiempo real y una arquitectura modular para una fácil gestión y expansión.
+_____________________________________________
+Análisis de Productos con Métricas Dinámicas:
+_____________________________________________
+
+La plataforma ofrece una visión analítica profunda de los productos a través de métricas clave que se actualizan 
+automáticamente con cada búsqueda o filtro aplicado. Estas métricas incluyen:
+
+*Identificación clara del producto más caro y el más barato, mostrando su nombre y precio respectivo.
+*Conteo de productos con títulos extensos (superiores a 20 caracteres), útil para optimización.
+*Cálculo del valor total acumulado de todo el inventario.
+*Promedio de los descuentos aplicados a los productos.
+*Puntuación promedio de las valoraciones de los usuarios.
+*Sumatoria total de unidades en stock.
+*Identificación del producto con la mayor cantidad disponible en inventario.
+______________________________________
+Arquitectura Modular y Componentizada:
+______________________________________
+Para garantizar un código limpio, mantenible y escalable, la aplicación se construyó con una arquitectura modular basada en componentes reutilizables:
+
+*ProductCard: Muestra la información detallada de cada producto individual (imagen, título, precio y otros detalles relevantes).
+*ProductList: Gestiona la visualización completa de la lista de productos, incluyendo la gestión de estados de carga y la presentación de mensajes 
+cuando no se encuentran resultados.
+*ProductFilters: Contiene todos los elementos interactivos que permiten a los usuarios filtrar y buscar productos de manera intuitiva.
+*StatsPanel: Presenta de forma clara y organizada todas las estadísticas agregadas calculadas.
+
+Cada componente opera de manera independiente, recibiendo sus datos a través de propiedades (props) y encapsulando su lógica de presentación. 
+Esta independencia facilita la modificación y mejora individual de cada parte de la aplicación, simplificando el mantenimiento y la escalabilidad futura.
+La coordinación del estado global y el flujo de datos entre los componentes se centraliza en el componente principal App.jsx."
