@@ -1,4 +1,4 @@
-🛍️ Evidencia 1 - Catálogo de Productos
+🛍️ Evidencia I - Catálogo de Productos
 📌 Descripción
 
 Este proyecto es un catálogo interactivo de productos que consume datos de la API DummyJSON. Desarrollado con:
@@ -26,8 +26,7 @@ Pasos de instalación
 
 // Escribir en terminal (en caso de querer hacerlo por git)
 
-git clone https://github.com/LeandroSanchez94/Proyectointegrador2025.git
-cd Proyectointegrador2025
+git clone https://github.com/Nieves862/proyectoIntegrador/edit/root/ABP/semanaI_React_Axios_Busqueda/I/
 
     Instalar dependencias:
 
